@@ -31,7 +31,7 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: Please complete the following system details
+      description: Please complete the following system information
       value: |
         - WPForms ver: [e.g. 1.8.2.3]
         - [name] Addon ver: [e.g. 3.0]
@@ -45,26 +45,20 @@ body:
       label: WPForms
       description: WPForms / Addon version where the issue is reproduced
       placeholder: e.g. 1.8.2.3
-  - type: textarea
-    id: affected
-    attributes:
-      label: Affected Area
-      description: Specify affected area, WP, PHP versions that would be good pay attention to
-      placeholder: WP 5.2
   - type: input
     id: attachment
     attributes:
       label: Attachments
-      description: add screenshots by dragging and dropping `png`, `jpg`, `gif`, etc. or set the screencast link
+      description: Add screenshot by dragging and dropping `png`, `jpg`, `gif`, etc. or set the screencast link
   - type: textarea
     id: solution
     attributes:
       label: Possible Solution
-      description: Suggest a fix/reason for the bug
+      description: Suggest a fix that could be applied for the issue
   - type: input
     id: helpscout
     attributes:
       label: Helpscout Ticket 
-      description: Remove the section if it is irrelevant
+      description: Specify the link to Helpscout Ticket
       
   
