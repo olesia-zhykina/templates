@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report issues with a specific challenge, like broken tests, unclear instructions, etc.
+description: Create a report to help us improve.
 body:
   - type: markdown
     attributes:
@@ -35,7 +35,7 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: Specify details about the issue environment
+      description: Please complete the following system details:
       value: |
         - WPForms ver: [e.g. 1.8.2.3]
         - [name] Addon ver: [e.g. 3.0]
