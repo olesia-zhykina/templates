@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a report to help us improve.
+description: Create a report to help us improve
 body:
   - type: markdown
     attributes:
@@ -35,7 +35,7 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: Please complete the following system details:
+      description: Please complete the following system details
       value: |
         - WPForms ver: [e.g. 1.8.2.3]
         - [name] Addon ver: [e.g. 3.0]
