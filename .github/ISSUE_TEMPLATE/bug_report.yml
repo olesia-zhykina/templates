@@ -42,7 +42,13 @@ body:
   - type: input
     id: wpforms_version
     attributes:
-      label: WPForms
+      label: WPForms / Addon where the issue is reproduced
+      description: WPForms / Addon version where the issue is reproduced
+      placeholder: e.g. 1.8.2.3
+  - type: input
+    id: wpforms_version_2
+    attributes:
+      label: WPForms / Addon where the issue is NOT reproduced
       description: WPForms / Addon version where the issue is reproduced
       placeholder: e.g. 1.8.2.3
   - type: input
