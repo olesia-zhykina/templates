@@ -1,7 +1,5 @@
-name: "\U0001F41E Bug Report"
-description: Create a report to help us improve lemmy
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Bug Report
+description: Report issues with a specific challenge, like broken tests, unclear instructions, etc.
 body:
   - type: markdown
     attributes:
