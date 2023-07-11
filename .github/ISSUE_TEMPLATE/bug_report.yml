@@ -45,7 +45,7 @@ body:
       label: WPForms / Addon where the issue is reproduced
       description: WPForms / Addon version where the issue is reproduced
       placeholder: e.g. 1.8.2.3
-  - type: input
+  - type: textarea
     id: attachment
     attributes:
       label: Attachments
