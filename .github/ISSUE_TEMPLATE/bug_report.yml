@@ -32,6 +32,14 @@ body:
         2.
         3.
     validations:
+      required: true     
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Specify details about the issue environment
+    validations:
       required: true
   - type: input
     id: wpforms_version
