@@ -38,9 +38,12 @@ body:
     attributes:
       label: Environment
       description: |
-        - Please post your log: `sudo docker-compose logs > lemmy_log.out`.
-        - What OS are you trying to install lemmy on?
-        - Any browser console errors?
+        - specify details about the issue environment
+    value: |
+        - WPForms ver: [e.g. 1.8.2.3]
+        - [name] Addon ver: [e.g. 3.0]
+        - WP [e.g. 6.2.2] + PHP: [e.g. 7.4.2]
+        - Browser: [e.g. Chrome, Safari]
     validations:
       required: true
   - type: input
@@ -59,7 +62,7 @@ body:
     id: attachment
     attributes:
       label: Attachments
-      description: Share screencast, screenshots, or error details to make an issue clear
+      description: add screenshots by dragging and dropping `png`, `jpg`, `gif`, etc. or set the screencast link
   - type: textarea
     id: solution
     attributes:
