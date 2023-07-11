@@ -46,11 +46,6 @@ body:
       description: WPForms / Addon version where the issue is reproduced
       placeholder: e.g. 1.8.2.3
   - type: input
-    id: wpforms_version_2
-    attributes:
-      description: WPForms / Addon version where the issue is NOT reproduced
-      placeholder: e.g. 1.8.2.3
-  - type: input
     id: attachment
     attributes:
       label: Attachments
