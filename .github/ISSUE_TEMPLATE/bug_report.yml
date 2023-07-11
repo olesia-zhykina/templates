@@ -1,5 +1,6 @@
-name: Bug Report
+name: "\U0001F41EBug Report
 description: Found a bug? Please fill in the report below to help us improve
+title: ""
 body:
   - type: textarea
     id: current_behaviour
