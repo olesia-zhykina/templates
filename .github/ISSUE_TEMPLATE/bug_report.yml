@@ -33,19 +33,6 @@ body:
         3.
     validations:
       required: true
-  - type: textarea
-    id: environment
-    attributes:
-      label: Environment
-      description: |
-        Specify details about the issue environment
-    value: |
-        - WPForms ver: [e.g. 1.8.2.3]
-        - [name] Addon ver: [e.g. 3.0]
-        - WP [e.g. 6.2.2] + PHP: [e.g. 7.4.2]
-        - Browser: [e.g. Chrome, Safari]
-    validations:
-      required: true
   - type: input
     id: wpforms_version
     attributes:
