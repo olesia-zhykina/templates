@@ -1,0 +1,74 @@
+name: "\U0001F41E Bug Report"
+description: Create a report to help us improve lemmy
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Found a bug? Please fill the sections below, thank you for reporting! 
+  - type: textarea
+    id: current_behaviour
+    attributes:
+      label: Current Behavior
+      description: Tell us what happens instead of the expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behaviour
+    attributes:
+      label: Expected Behavior
+      description: Describe the correct behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: |
+        Provide detailed steps, live links, or code that would be helpful to reproduce a bug 
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        - Please post your log: `sudo docker-compose logs > lemmy_log.out`.
+        - What OS are you trying to install lemmy on?
+        - Any browser console errors?
+    validations:
+      required: true
+  - type: input
+    id: wpforms_version
+    attributes:
+      label: WPForms
+      description: WPForms / Addon version where the issue is reproduced
+      placeholder: e.g. 1.8.2.3
+  - type: textarea
+    id: affected
+    attributes:
+      label: Affected Area
+      description: Specify affected area, WP, PHP versions that would be good pay attention to
+      placeholder: WP 5.2
+  - type: input
+    id: attachment
+    attributes:
+      label: Attachments
+      description: Share screencast, screenshots, or error details to make an issue clear
+  - type: textarea
+    id: solution
+    attributes:
+      label: Possible Solution
+      description: Suggest a fix/reason for the bug
+  - type: input
+    id: helpscout
+    attributes:
+      label: Helpscout Ticket 
+      description: Remove the section if it is irrelevant
+      
+  
