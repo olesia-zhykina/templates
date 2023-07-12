@@ -46,8 +46,8 @@ body:
   - type: input
     id: other_environment
     attributes:
-      label: Other environment details
-      description: Please provide other configuration details that could be helpful for issue reproducing
+      label: Other system details
+      description: Please provide other system or configuration details that could be helpful for issue reproducing
       placeholder: e.g. WP 6.2.2, PHP 8.1, Chrome browser 
     validations:
       required: false
