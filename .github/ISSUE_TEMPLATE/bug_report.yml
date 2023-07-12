@@ -62,7 +62,7 @@ body:
       description: Specify WPForms / Addon version where the issue is NOT reproduced
       placeholder: e.g. WPForms 1.8.1, Stripe 2.4
     validations:
-      required: true
+      required: false
   - type: input
     id: other_environment
     attributes:
