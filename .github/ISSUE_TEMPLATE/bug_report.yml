@@ -33,10 +33,18 @@ body:
       label: Environment
       description: Please complete the following system information
       value: |
-        - WPForms ver: [e.g. 1.8.2.3]
-        - [name] Addon ver: [e.g. 3.0]
-        - WP [e.g. 6.2.2] + PHP: [e.g. 7.4.2]
-        - Browser: [e.g. Chrome, Safari]
+        Reproducible on:
+          - WPForms ver: [e.g. 1.8.2.3]
+          - [name] Addon ver: [e.g. 3.0]
+
+        NOT reproducible on:
+          - WPForms ver: [e.g. 1.8.2.3]
+          - [name] Addon ver: [e.g. 3.0]
+
+        Other configuration details (optional):
+          - WP: [e.g. 6.2.2] 
+          - PHP: [e.g. 7.4.2]
+          - Browser: [e.g. Chrome, Safari]
     validations:
       required: true
   - type: input
