@@ -50,7 +50,7 @@ body:
   - type: input
     id: wpforms_version_is
     attributes:
-      label: WPForms / Addon where the issue is reproduced
+      label: Environment where the issue is reproduced
       description: Specify WPForms / Addon version where the issue is reproduced
       placeholder: e.g. WPForms 1.8.2.3, Stripe 3.0
     validations:
@@ -58,7 +58,7 @@ body:
   - type: input
     id: wpforms_version_is_not
     attributes:
-      label: WPForms / Addon where the issue is NOT reproduced
+      label: Environment where the issue is NOT reproduced
       description: Specify WPForms / Addon version where the issue is NOT reproduced
       placeholder: e.g. WPForms 1.8.1, Stripe 2.4
     validations:
