@@ -48,11 +48,29 @@ body:
     validations:
       required: true
   - type: input
-    id: wpforms_version
+    id: wpforms_version_is
     attributes:
       label: WPForms / Addon where the issue is reproduced
-      description: WPForms / Addon version where the issue is reproduced
-      placeholder: e.g. 1.8.2.3
+      description: Specify WPForms / Addon version where the issue is reproduced
+      placeholder: WPForms 1.8.2.3, Stripe 3.0
+    validations:
+      required: true
+  - type: input
+    id: wpforms_version_is_not
+    attributes:
+      label: WPForms / Addon where the issue is NOT reproduced
+      description: Specify WPForms / Addon version where the issue is NOT reproduced
+      placeholder: e.g. WPForms 1.8.1, Stripe 2.4
+    validations:
+      required: true
+   - type: input
+    id: other_environment
+    attributes:
+      label: Other environment details
+      description: Please provide other configuration details that could be helpful for issue reproducing
+      placeholder: e.g. WP 6.2.2, PHP 8.1, Chrome browser 
+    validations:
+      required: false
   - type: textarea
     id: attachment
     attributes:
