@@ -52,7 +52,7 @@ body:
     attributes:
       label: WPForms / Addon where the issue is reproduced
       description: Specify WPForms / Addon version where the issue is reproduced
-      placeholder: WPForms 1.8.2.3, Stripe 3.0
+      placeholder: e.g. WPForms 1.8.2.3, Stripe 3.0
     validations:
       required: true
   - type: input
