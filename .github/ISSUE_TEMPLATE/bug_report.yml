@@ -31,16 +31,16 @@ body:
     id: wpforms_version_is
     attributes:
       label: Environment where the issue is reproducible
-      description: Specify WPForms / Addon version / branch where the issue is reproduced
-      placeholder: e.g. WPForms 1.8.2.3, Stripe 3.0 / develop (1.8.2.2)
+      description: Specify WPForms, Addon version or branch where the issue is reproduced
+      placeholder: e.g. WPForms 1.8.2.3, Stripe 3.0, develop (1.8.2.2)
     validations:
       required: true
   - type: input
     id: wpforms_version_is_not
     attributes:
       label: Environment where the issue is NOT reproducible
-      description: Specify WPForms / Addon version / branch where the issue is NOT reproduced
-      placeholder: e.g. WPForms 1.8.2.3, Stripe 3.0 / develop (1.8.2.2)
+      description: Specify WPForms, Addon version or branch where the issue is NOT reproduced
+      placeholder: e.g. WPForms 1.8.2.3, Stripe 3.0, develop (1.8.2.2)
     validations:
       required: false
   - type: input
