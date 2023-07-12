@@ -27,40 +27,20 @@ body:
         3.
     validations:
       required: true     
-  - type: textarea
-    id: environment
-    attributes:
-      label: Environment
-      description: Please complete the following system information
-      value: |
-        Reproducible on:
-          - WPForms ver: [e.g. 1.8.2.3]
-          - [name] Addon ver: [e.g. 3.0]
-
-        NOT reproducible on:
-          - WPForms ver: [e.g. 1.8.2.3]
-          - [name] Addon ver: [e.g. 3.0]
-
-        Other configuration details (optional):
-          - WP: [e.g. 6.2.2] 
-          - PHP: [e.g. 7.4.2]
-          - Browser: [e.g. Chrome, Safari]
-    validations:
-      required: true
   - type: input
     id: wpforms_version_is
     attributes:
-      label: Environment where the issue is reproduced
-      description: Specify WPForms / Addon version where the issue is reproduced
-      placeholder: e.g. WPForms 1.8.2.3, Stripe 3.0
+      label: Environment where the issue is reproducible
+      description: Specify WPForms / Addon version / branch where the issue is reproduced
+      placeholder: e.g. WPForms 1.8.2.3, Stripe 3.0 / develop (1.8.2.2)
     validations:
       required: true
   - type: input
     id: wpforms_version_is_not
     attributes:
-      label: Environment where the issue is NOT reproduced
-      description: Specify WPForms / Addon version where the issue is NOT reproduced
-      placeholder: e.g. WPForms 1.8.1, Stripe 2.4
+      label: Environment where the issue is NOT reproducible
+      description: Specify WPForms / Addon version / branch where the issue is NOT reproduced
+      placeholder: e.g. WPForms 1.8.2.3, Stripe 3.0 / develop (1.8.2.2)
     validations:
       required: false
   - type: input
