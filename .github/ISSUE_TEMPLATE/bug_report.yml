@@ -57,14 +57,9 @@ body:
       label: Attachments
       description: Add a screenshot by dragging and dropping `png`, `jpg`, `gif` or setting a screencast link
   - type: textarea
-    id: solution
+    id: notes
     attributes:
-      label: Possible Solution
-      description: Suggest a fix that could be applied for the issue
-  - type: input
-    id: helpscout
-    attributes:
-      label: Helpscout Ticket 
-      description: Specify the link to Helpscout Ticket
+      label: Other notes
+      description: Specify additional helpful info (suggest a fix, link Helpscout Ticket, provide other details that could be applied to the issue)
       
   
